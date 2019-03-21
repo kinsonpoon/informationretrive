@@ -1,0 +1,1866 @@
+2019-03-21 02:38:12.286 INFO  (main) [   ] o.e.j.u.log Logging initialized @27860ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-03-21 02:38:14.805 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2019-03-21 02:38:15.065 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 11.0.2+9-LTS
+2019-03-21 02:38:15.169 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///C:/Users/kinsonp/Downloads/study/study/iir/asg1/solr-7.7.0/solr-7.7.0/server/contexts/] at interval 0
+2019-03-21 02:38:16.299 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-03-21 02:38:16.335 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-03-21 02:38:16.335 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-03-21 02:38:16.437 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2019-03-21 02:38:17.021 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2019-03-21 02:38:17.432 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-03-21 02:38:17.842 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr? version 7.7.0
+2019-03-21 02:38:17.843 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-03-21 02:38:17.844 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0
+2019-03-21 02:38:17.845 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-03-21T02:38:17.845928100Z
+2019-03-21 02:38:19.680 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0\server\solr
+2019-03-21 02:38:19.795 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0\server\solr\solr.xml
+2019-03-21 02:38:24.918 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@3b79fd76, but no JMX reporters were configured - adding default JMX reporter.
+2019-03-21 02:38:27.874 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2019-03-21 02:38:30.783 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-03-21 02:38:30.791 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2019-03-21 02:38:31.636 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@3b79fd76
+2019-03-21 02:38:31.636 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@3b79fd76
+2019-03-21 02:38:31.644 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@3b79fd76
+2019-03-21 02:38:33.175 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0\server\solr
+2019-03-21 02:38:33.176 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [helloworld]
+2019-03-21 02:38:33.733 INFO  (coreLoadExecutor-9-thread-1) [   x:helloworld] o.a.s.c.SolrResourceLoader [helloworld] Added 58 libs to classloader, from paths: [/C:/Users/kinsonp/Downloads/study/study/iir/asg1/solr-7.7.0/solr-7.7.0/contrib/clustering/lib, /C:/Users/kinsonp/Downloads/study/study/iir/asg1/solr-7.7.0/solr-7.7.0/contrib/extraction/lib, /C:/Users/kinsonp/Downloads/study/study/iir/asg1/solr-7.7.0/solr-7.7.0/contrib/langid/lib, /C:/Users/kinsonp/Downloads/study/study/iir/asg1/solr-7.7.0/solr-7.7.0/contrib/velocity/lib, /C:/Users/kinsonp/Downloads/study/study/iir/asg1/solr-7.7.0/solr-7.7.0/dist]
+2019-03-21 02:38:39.429 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@76a36b71{/solr,file:///C:/Users/kinsonp/Downloads/study/study/iir/asg1/solr-7.7.0/solr-7.7.0/server/solr-webapp/webapp/,AVAILABLE}{C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0\server/solr-webapp/webapp}
+2019-03-21 02:38:40.577 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@f444623{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2019-03-21 02:38:40.578 INFO  (main) [   ] o.e.j.s.Server Started @56192ms
+2019-03-21 02:38:43.125 INFO  (qtp2059461664-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=509
+2019-03-21 02:38:53.384 INFO  (coreLoadExecutor-9-thread-1) [   x:helloworld] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.7.0
+2019-03-21 02:38:57.022 INFO  (coreLoadExecutor-9-thread-1) [   x:helloworld] o.a.s.s.IndexSchema [helloworld] Schema name=default-config
+2019-03-21 02:39:07.385 INFO  (coreLoadExecutor-9-thread-1) [   x:helloworld] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-03-21 02:39:07.441 INFO  (coreLoadExecutor-9-thread-1) [   x:helloworld] o.a.s.c.CoreContainer Creating SolrCore 'helloworld' using configuration from instancedir C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0\server\solr\helloworld, trusted=true
+2019-03-21 02:39:07.781 INFO  (coreLoadExecutor-9-thread-1) [   x:helloworld] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.helloworld' (registry 'solr.core.helloworld') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@3b79fd76
+2019-03-21 02:39:08.211 INFO  (coreLoadExecutor-9-thread-1) [   x:helloworld] o.a.s.c.SolrCore [[helloworld] ] Opening new SolrCore at [C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0\server\solr\helloworld], dataDir=[C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0\server\solr\helloworld\data\]
+2019-03-21 02:39:08.469 INFO  (coreLoadExecutor-9-thread-1) [   x:helloworld] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-03-21 02:39:12.111 INFO  (coreLoadExecutor-9-thread-1) [   x:helloworld] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-03-21 02:39:12.111 INFO  (coreLoadExecutor-9-thread-1) [   x:helloworld] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-03-21 02:39:12.219 INFO  (coreLoadExecutor-9-thread-1) [   x:helloworld] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-03-21 02:39:12.219 INFO  (coreLoadExecutor-9-thread-1) [   x:helloworld] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-03-21 02:39:13.751 INFO  (coreLoadExecutor-9-thread-1) [   x:helloworld] o.a.s.s.SolrIndexSearcher Opening [Searcher@8dcba87[helloworld] main]
+2019-03-21 02:39:13.906 INFO  (coreLoadExecutor-9-thread-1) [   x:helloworld] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0\server\solr\helloworld\conf
+2019-03-21 02:39:14.259 INFO  (coreLoadExecutor-9-thread-1) [   x:helloworld] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-03-21 02:39:14.270 INFO  (coreLoadExecutor-9-thread-1) [   x:helloworld] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-03-21 02:39:14.289 INFO  (coreLoadExecutor-9-thread-1) [   x:helloworld] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-03-21 02:39:14.536 INFO  (searcherExecutor-10-thread-1-processing-x:helloworld) [   x:helloworld] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@8dcba87[helloworld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(7.7.0):C64500:[diagnostics={java.runtime.version=11.0.2+9-LTS, java.vendor=Oracle Corporation, java.version=11.0.2, java.vm.version=11.0.2+9-LTS, lucene.version=7.7.0, os=Windows 8.1, os.arch=amd64, os.version=6.3, source=flush, timestamp=1551948888938}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-03-21 02:39:14.537 INFO  (searcherExecutor-10-thread-1-processing-x:helloworld) [   x:helloworld] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-03-21 02:39:14.537 INFO  (searcherExecutor-10-thread-1-processing-x:helloworld) [   x:helloworld] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-03-21 02:39:14.548 INFO  (searcherExecutor-10-thread-1-processing-x:helloworld) [   x:helloworld] o.a.s.c.SolrCore [helloworld] Registered new searcher Searcher@8dcba87[helloworld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(7.7.0):C64500:[diagnostics={java.runtime.version=11.0.2+9-LTS, java.vendor=Oracle Corporation, java.version=11.0.2, java.vm.version=11.0.2+9-LTS, lucene.version=7.7.0, os=Windows 8.1, os.arch=amd64, os.version=6.3, source=flush, timestamp=1551948888938}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-03-21 02:39:23.123 INFO  (qtp2059461664-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=2
+2019-03-21 02:39:23.150 INFO  (qtp2059461664-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=24
+2019-03-21 02:39:23.196 INFO  (qtp2059461664-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=30
+2019-03-21 02:40:47.564 INFO  (qtp2059461664-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 02:40:47.574 INFO  (qtp2059461664-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1553135962651} status=0 QTime=5
+2019-03-21 02:40:47.590 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=22
+2019-03-21 02:40:47.639 INFO  (qtp2059461664-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 02:40:47.666 INFO  (qtp2059461664-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1553135962651} status=0 QTime=2
+2019-03-21 02:40:47.673 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=32
+2019-03-21 02:41:37.888 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.h.a.CoreAdminOperation core create command schema=schema.xml&dataDir=data&name=Stackoverflow&action=CREATE&config=solrconfig.xml&instanceDir=Stackoverflow&wt=json&_=1553135962651
+2019-03-21 02:41:37.964 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.SolrResourceLoader [Stackoverflow] Added 58 libs to classloader, from paths: [/C:/Users/kinsonp/Downloads/study/study/iir/asg1/solr-7.7.0/solr-7.7.0/contrib/clustering/lib, /C:/Users/kinsonp/Downloads/study/study/iir/asg1/solr-7.7.0/solr-7.7.0/contrib/extraction/lib, /C:/Users/kinsonp/Downloads/study/study/iir/asg1/solr-7.7.0/solr-7.7.0/contrib/langid/lib, /C:/Users/kinsonp/Downloads/study/study/iir/asg1/solr-7.7.0/solr-7.7.0/contrib/velocity/lib, /C:/Users/kinsonp/Downloads/study/study/iir/asg1/solr-7.7.0/solr-7.7.0/dist]
+2019-03-21 02:41:38.032 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.7.0
+2019-03-21 02:41:38.133 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.s.IndexSchema [Stackoverflow] Schema name=default-config
+2019-03-21 02:41:38.481 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-03-21 02:41:38.540 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.CoreContainer Creating SolrCore 'Stackoverflow' using configuration from instancedir C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0\server\solr\Stackoverflow, trusted=true
+2019-03-21 02:41:38.541 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.Stackoverflow' (registry 'solr.core.Stackoverflow') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@3b79fd76
+2019-03-21 02:41:38.542 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.SolrCore [[Stackoverflow] ] Opening new SolrCore at [C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0\server\solr\Stackoverflow], dataDir=[C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0\server\solr\Stackoverflow\data\]
+2019-03-21 02:41:38.879 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-03-21 02:41:38.980 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-03-21 02:41:38.980 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-03-21 02:41:38.986 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-03-21 02:41:38.987 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-03-21 02:41:38.991 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.s.SolrIndexSearcher Opening [Searcher@57f90297[Stackoverflow] main]
+2019-03-21 02:41:38.991 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0\server\solr\Stackoverflow\conf
+2019-03-21 02:41:38.992 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-03-21 02:41:38.993 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-03-21 02:41:38.994 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-03-21 02:41:38.995 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1628581238139781120
+2019-03-21 02:41:38.997 INFO  (searcherExecutor-15-thread-1-processing-x:Stackoverflow) [   x:Stackoverflow] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@57f90297[Stackoverflow] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-03-21 02:41:38.998 INFO  (searcherExecutor-15-thread-1-processing-x:Stackoverflow) [   x:Stackoverflow] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-03-21 02:41:38.998 INFO  (searcherExecutor-15-thread-1-processing-x:Stackoverflow) [   x:Stackoverflow] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-03-21 02:41:39.000 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=Stackoverflow&action=CREATE&config=solrconfig.xml&instanceDir=Stackoverflow&wt=json&_=1553135962651} status=0 QTime=1113
+2019-03-21 02:41:39.002 INFO  (searcherExecutor-15-thread-1-processing-x:Stackoverflow) [   x:Stackoverflow] o.a.s.c.SolrCore [Stackoverflow] Registered new searcher Searcher@57f90297[Stackoverflow] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-03-21 02:41:39.064 INFO  (qtp2059461664-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 02:41:39.089 INFO  (qtp2059461664-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1553135962651} status=0 QTime=6
+2019-03-21 02:41:39.097 INFO  (qtp2059461664-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=29
+2019-03-21 02:41:48.827 INFO  (qtp2059461664-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 02:41:48.878 INFO  (qtp2059461664-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=50
+2019-03-21 02:41:48.882 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1553136108813} status=0 QTime=43
+2019-03-21 02:41:48.883 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/replication params={wt=json&command=details&_=1553136108814} status=0 QTime=42
+2019-03-21 02:41:48.890 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1553135962652&ts=1553135962652} status=503 QTime=45
+2019-03-21 02:41:48.912 INFO  (qtp2059461664-19) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/system params={wt=json&_=1553136108814} status=0 QTime=70
+2019-03-21 02:42:10.079 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 02:42:10.090 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=6
+2019-03-21 02:42:10.106 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=25
+2019-03-21 02:42:10.154 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=5
+2019-03-21 02:42:10.333 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:02:01.173 INFO  (qtp2059461664-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:01.180 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=2
+2019-03-21 03:02:01.202 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=25
+2019-03-21 03:02:02.393 INFO  (qtp2059461664-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:02.397 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1553137322376} status=0 QTime=0
+2019-03-21 03:02:02.417 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=22
+2019-03-21 03:02:02.462 INFO  (qtp2059461664-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:02.474 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1553137322376} status=0 QTime=0
+2019-03-21 03:02:02.487 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=20
+2019-03-21 03:02:03.074 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:03.080 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:02:03.098 INFO  (qtp2059461664-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=22
+2019-03-21 03:02:06.122 INFO  (qtp2059461664-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:06.131 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/file params={wt=json&_=1553137326116} status=0 QTime=2
+2019-03-21 03:02:06.148 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=22
+2019-03-21 03:02:06.176 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/file params={file=lang&wt=json&_=1553137326116} status=0 QTime=5
+2019-03-21 03:02:08.152 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:08.156 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1553137322376} status=0 QTime=0
+2019-03-21 03:02:08.184 INFO  (qtp2059461664-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=28
+2019-03-21 03:02:08.228 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:08.234 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1553137322376} status=0 QTime=1
+2019-03-21 03:02:08.257 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=25
+2019-03-21 03:02:09.075 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:09.090 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:02:09.102 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=26
+2019-03-21 03:02:09.780 INFO  (qtp2059461664-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:09.786 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:02:09.797 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/replication params={wt=json&command=details&_=1553136108814} status=0 QTime=2
+2019-03-21 03:02:09.810 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1553135962652&ts=1553135962652} status=503 QTime=0
+2019-03-21 03:02:09.818 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=33
+2019-03-21 03:02:09.824 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/system params={wt=json&_=1553136108814} status=0 QTime=21
+2019-03-21 03:02:10.617 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:10.624 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=2
+2019-03-21 03:02:10.644 INFO  (qtp2059461664-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=23
+2019-03-21 03:02:11.241 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:11.247 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1553137322376} status=0 QTime=0
+2019-03-21 03:02:11.269 INFO  (qtp2059461664-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=24
+2019-03-21 03:02:11.306 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:11.313 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1553137322376} status=0 QTime=0
+2019-03-21 03:02:11.333 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=23
+2019-03-21 03:02:12.916 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:12.923 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/file params={wt=json&_=1553137326116} status=0 QTime=2
+2019-03-21 03:02:12.948 INFO  (qtp2059461664-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=27
+2019-03-21 03:02:12.950 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/file params={file=lang&wt=json&_=1553137326116} status=0 QTime=12
+2019-03-21 03:02:13.579 INFO  (qtp2059461664-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=1
+2019-03-21 03:02:13.584 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1553137322376} status=0 QTime=0
+2019-03-21 03:02:13.608 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=27
+2019-03-21 03:02:13.648 INFO  (qtp2059461664-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:13.656 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1553137322376} status=0 QTime=0
+2019-03-21 03:02:13.671 INFO  (qtp2059461664-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=21
+2019-03-21 03:02:15.451 INFO  (qtp2059461664-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:15.460 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=2
+2019-03-21 03:02:15.468 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=2
+2019-03-21 03:02:15.475 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=21
+2019-03-21 03:02:15.528 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:02:23.045 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:23.050 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:02:23.059 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:02:23.068 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=20
+2019-03-21 03:02:23.108 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:02:36.966 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:36.971 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:02:36.994 INFO  (qtp2059461664-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=23
+2019-03-21 03:02:36.998 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:02:37.064 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:02:49.646 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:49.652 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:02:49.663 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:02:49.669 INFO  (qtp2059461664-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=20
+2019-03-21 03:02:49.788 INFO  (qtp2059461664-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:49.803 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=1
+2019-03-21 03:02:49.804 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=2
+2019-03-21 03:02:49.812 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=21
+2019-03-21 03:02:49.871 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:02:49.905 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:02:55.185 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:55.189 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:02:55.196 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:02:55.206 INFO  (qtp2059461664-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=20
+2019-03-21 03:02:55.249 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:02:57.638 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/ping params={wt=json&_=1553135962652&ts=1553135962652} hits=0 status=0 QTime=79
+2019-03-21 03:02:57.639 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/ping params={wt=json&_=1553135962652&ts=1553135962652} status=0 QTime=80
+2019-03-21 03:02:58.752 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/ping params={wt=json&_=1553135962652&ts=1553135962652} hits=0 status=0 QTime=0
+2019-03-21 03:02:58.752 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/ping params={wt=json&_=1553135962652&ts=1553135962652} status=0 QTime=0
+2019-03-21 03:02:59.310 INFO  (qtp2059461664-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:02:59.318 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/file params={wt=json&_=1553137326116} status=0 QTime=2
+2019-03-21 03:02:59.338 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=24
+2019-03-21 03:02:59.351 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/file params={file=lang&wt=json&_=1553137326116} status=0 QTime=4
+2019-03-21 03:03:00.930 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:03:00.937 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:03:00.944 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:03:00.955 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=19
+2019-03-21 03:03:00.996 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:12:55.262 INFO  (qtp2059461664-22) [   x:Stackoverflow] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0\server\solr\Stackoverflow\conf\managed-schema
+2019-03-21 03:12:55.313 INFO  (qtp2059461664-22) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/schema params={wt=json&_=1553136130055} status=0 QTime=173
+2019-03-21 03:12:56.823 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:12:56.827 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:12:56.915 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:13:00.513 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:13:00.521 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=1
+2019-03-21 03:13:00.521 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:13:00.537 INFO  (qtp2059461664-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=22
+2019-03-21 03:13:00.581 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:13:03.399 INFO  (qtp2059461664-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:13:03.403 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:13:03.416 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:13:03.432 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=32
+2019-03-21 03:13:03.499 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:13:04.641 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:13:04.666 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=23
+2019-03-21 03:13:04.682 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/mbeans params={stats=true&wt=json&_=1553137322376} status=0 QTime=36
+2019-03-21 03:13:05.511 INFO  (qtp2059461664-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:13:05.533 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=20
+2019-03-21 03:13:09.611 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:13:09.618 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:13:09.633 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:13:09.638 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=24
+2019-03-21 03:13:09.690 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:13:13.841 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:13:13.847 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=2
+2019-03-21 03:13:13.861 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:13:13.869 INFO  (qtp2059461664-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=24
+2019-03-21 03:13:13.916 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:13:19.695 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:13:19.699 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:13:19.704 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:13:19.716 INFO  (qtp2059461664-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=19
+2019-03-21 03:13:19.757 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:13:31.760 INFO  (qtp2059461664-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:13:31.765 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:13:31.777 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:13:31.782 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=21
+2019-03-21 03:13:31.824 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:13:39.601 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:13:39.606 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:13:39.626 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=23
+2019-03-21 03:13:39.627 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:13:39.677 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:20:45.574 INFO  (qtp2059461664-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:20:45.580 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:20:45.590 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:20:45.598 INFO  (qtp2059461664-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=23
+2019-03-21 03:20:45.643 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:20:46.575 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={fl=python&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:22:22.421 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0\server\solr\Stackoverflow\conf\managed-schema
+2019-03-21 03:22:22.507 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/schema params={wt=json&_=1553136130055} status=0 QTime=132
+2019-03-21 03:22:24.102 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:22:24.111 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=2
+2019-03-21 03:22:24.125 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:22:24.127 INFO  (qtp2059461664-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=22
+2019-03-21 03:22:24.181 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:42:04.301 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0\server\solr\Stackoverflow\conf\managed-schema
+2019-03-21 03:42:04.400 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/schema params={wt=json&_=1553136130055} status=0 QTime=151
+2019-03-21 03:42:05.917 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=3
+2019-03-21 03:42:05.923 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=1
+2019-03-21 03:42:05.982 INFO  (qtp2059461664-22) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:42:16.396 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0\server\solr\Stackoverflow\conf\managed-schema
+2019-03-21 03:42:16.515 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/schema params={wt=json&_=1553136130055} status=0 QTime=151
+2019-03-21 03:42:18.027 INFO  (qtp2059461664-22) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:42:18.027 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:42:18.056 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:48:22.693 INFO  (qtp2059461664-19) [   x:Stackoverflow] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0\server\solr\Stackoverflow\conf\managed-schema
+2019-03-21 03:48:22.783 INFO  (qtp2059461664-19) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/schema params={wt=json&_=1553136130055} status=0 QTime=131
+2019-03-21 03:48:24.295 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:48:24.300 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:48:24.328 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:51:01.970 INFO  (qtp2059461664-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:51:01.977 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:51:01.984 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/replication params={wt=json&command=details&_=1553136108814} status=0 QTime=3
+2019-03-21 03:51:01.995 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1553135962652&ts=1553135962652} status=503 QTime=0
+2019-03-21 03:51:02.024 INFO  (qtp2059461664-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=47
+2019-03-21 03:51:02.025 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/system params={wt=json&_=1553136108814} status=0 QTime=35
+2019-03-21 03:51:05.596 INFO  (qtp2059461664-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:51:05.605 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:51:05.605 INFO  (qtp2059461664-22) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:51:05.622 INFO  (qtp2059461664-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=25
+2019-03-21 03:51:05.669 INFO  (qtp2059461664-19) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:51:06.223 INFO  (qtp2059461664-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:51:06.236 INFO  (qtp2059461664-19) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/segments params={wt=json&_=1553140266220} status=0 QTime=9
+2019-03-21 03:51:06.253 INFO  (qtp2059461664-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=28
+2019-03-21 03:51:07.050 INFO  (qtp2059461664-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:51:07.055 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:51:07.064 INFO  (qtp2059461664-19) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=1
+2019-03-21 03:51:07.073 INFO  (qtp2059461664-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=21
+2019-03-21 03:51:07.117 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:51:09.246 INFO  (qtp2059461664-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=1
+2019-03-21 03:51:09.258 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 03:51:09.271 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:51:09.273 INFO  (qtp2059461664-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=23
+2019-03-21 03:51:09.320 INFO  (qtp2059461664-22) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 03:51:34.683 INFO  (qtp2059461664-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 03:51:34.693 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=4
+2019-03-21 03:51:34.708 INFO  (qtp2059461664-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=23
+2019-03-21 03:51:34.710 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 03:51:34.758 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=0
+2019-03-21 04:53:43.393 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at C:\Users\kinsonp\Downloads\study\study\iir\asg1\solr-7.7.0\solr-7.7.0\server\solr\Stackoverflow\conf\managed-schema
+2019-03-21 04:53:52.063 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1628589556564492288,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-03-21 04:53:52.064 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@55ce80d6 commitCommandVersion:1628589556564492288
+2019-03-21 04:54:00.023 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.s.SolrIndexSearcher Opening [Searcher@35a75462[Stackoverflow] main]
+2019-03-21 04:54:00.025 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-03-21 04:54:00.026 INFO  (searcherExecutor-15-thread-1-processing-x:Stackoverflow) [   x:Stackoverflow] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@35a75462[Stackoverflow] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.7.0):C40654:[diagnostics={os=Windows 8.1, java.vendor=Oracle Corporation, java.version=11.0.2, java.vm.version=11.0.2+9-LTS, lucene.version=7.7.0, os.arch=amd64, java.runtime.version=11.0.2+9-LTS, source=flush, os.version=6.3, timestamp=1553144035063}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-03-21 04:54:00.026 INFO  (searcherExecutor-15-thread-1-processing-x:Stackoverflow) [   x:Stackoverflow] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-03-21 04:54:00.092 INFO  (searcherExecutor-15-thread-1-processing-x:Stackoverflow) [   x:Stackoverflow] o.a.s.c.SolrCore [Stackoverflow] Registered new searcher Searcher@35a75462[Stackoverflow] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.7.0):C40654:[diagnostics={os=Windows 8.1, java.vendor=Oracle Corporation, java.version=11.0.2, java.vm.version=11.0.2+9-LTS, lucene.version=7.7.0, os.arch=amd64, java.runtime.version=11.0.2+9-LTS, source=flush, os.version=6.3, timestamp=1553144035063}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-03-21 04:54:00.139 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.u.p.LogUpdateProcessorFactory [Stackoverflow]  webapp=/solr path=/update params={commit=true}{add=[0 (1628589547518427136), 1 (1628589547750162432), 2 (1628589547753308160), 3 (1628589547756453888), 4 (1628589547758551040), 5 (1628589547770085376), 6 (1628589547778473984), 7 (1628589547784765440), 8 (1628589547786862592), 9 (1628589547788959744), ... (40654 adds)],commit=} 0 17241
+2019-03-21 04:54:09.143 INFO  (qtp2059461664-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 04:54:09.167 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=23
+2019-03-21 04:54:11.800 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=*:*&_=1553137985477} hits=40654 status=0 QTime=26
+2019-03-21 04:54:40.106 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=*iterator*&_=1553137985477} hits=0 status=0 QTime=156
+2019-03-21 04:54:45.508 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=*:*&_=1553137985477} hits=40654 status=0 QTime=0
+2019-03-21 04:55:43.480 ERROR (qtp2059461664-40) [   x:Stackoverflow] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: undefined field title
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1305)
+	at org.apache.solr.schema.IndexSchema.getFieldType(IndexSchema.java:1257)
+	at org.apache.solr.parser.SolrQueryParserBase.getPrefixQuery(SolrQueryParserBase.java:1173)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:781)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:421)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:278)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2551)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:710)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2019-03-21 04:55:43.481 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=title:how*&_=1553137985477} status=400 QTime=31
+2019-03-21 04:56:32.037 ERROR (qtp2059461664-40) [   x:Stackoverflow] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: undefined field title
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1305)
+	at org.apache.solr.schema.IndexSchema.getFieldType(IndexSchema.java:1257)
+	at org.apache.solr.parser.SolrQueryParserBase.getWildcardQuery(SolrQueryParserBase.java:1189)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:779)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:421)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:278)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2551)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:710)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2019-03-21 04:56:32.038 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=title:*How*&_=1553137985477} status=400 QTime=3
+2019-03-21 04:56:42.202 ERROR (qtp2059461664-40) [   x:Stackoverflow] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse '*title:*How*': Encountered " ":" ": "" at line 1, column 6.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2551)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:710)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse '*title:*How*': Encountered " ":" ": "" at line 1, column 6.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 41 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " ":" ": "" at line 1, column 6.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:132)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 44 more
+
+2019-03-21 04:56:42.203 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=*title:*How*&_=1553137985477} status=400 QTime=6
+2019-03-21 04:56:51.928 INFO  (qtp2059461664-22) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=*How*&_=1553137985477} hits=0 status=0 QTime=3
+2019-03-21 04:57:57.721 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/ping params={wt=json&_=1553135962652&ts=1553135962652} hits=40654 status=0 QTime=1
+2019-03-21 04:57:57.722 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/ping params={wt=json&_=1553135962652&ts=1553135962652} status=0 QTime=2
+2019-03-21 04:57:59.611 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/ping params={wt=json&_=1553135962652&ts=1553135962652} hits=40654 status=0 QTime=0
+2019-03-21 04:57:59.612 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/ping params={wt=json&_=1553135962652&ts=1553135962652} status=0 QTime=0
+2019-03-21 04:58:00.694 INFO  (qtp2059461664-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 04:58:00.723 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/file params={wt=json&_=1553137326116} status=0 QTime=5
+2019-03-21 04:58:00.734 INFO  (qtp2059461664-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=34
+2019-03-21 04:58:00.744 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/file params={file=lang&wt=json&_=1553137326116} status=0 QTime=9
+2019-03-21 04:58:01.844 INFO  (qtp2059461664-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 04:58:01.872 INFO  (qtp2059461664-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=24
+2019-03-21 04:58:04.309 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=*:*&_=1553137985477} hits=40654 status=0 QTime=0
+2019-03-21 04:58:17.015 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=*What*&_=1553137985477} hits=0 status=0 QTime=3
+2019-03-21 04:58:22.060 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=*:*&_=1553137985477} hits=40654 status=0 QTime=0
+2019-03-21 04:58:30.066 ERROR (qtp2059461664-18) [   x:Stackoverflow] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse '*"question":["What*': Encountered " ":" ": "" at line 1, column 11.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2551)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:710)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse '*"question":["What*': Encountered " ":" ": "" at line 1, column 11.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 41 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " ":" ": "" at line 1, column 11.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:132)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 44 more
+
+2019-03-21 04:58:30.067 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=*"question":["What*&_=1553137985477} status=400 QTime=7
+2019-03-21 04:58:40.532 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=*:*&_=1553137985477} hits=40654 status=0 QTime=0
+2019-03-21 05:02:01.366 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:*What*&_=1553137985477} hits=1768 status=0 QTime=157
+2019-03-21 05:02:13.972 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:*oop*&_=1553137985477} hits=512 status=0 QTime=57
+2019-03-21 05:02:28.976 ERROR (qtp2059461664-15) [   x:Stackoverflow] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'tag:*oop*,tag:*methods*': Encountered " ":" ": "" at line 1, column 13.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2551)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:710)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'tag:*oop*,tag:*methods*': Encountered " ":" ": "" at line 1, column 13.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 41 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " ":" ": "" at line 1, column 13.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:132)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 44 more
+
+2019-03-21 05:02:28.976 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:*oop*,tag:*methods*&_=1553137985477} status=400 QTime=5
+2019-03-21 05:03:21.458 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:*oop*+%0atag:*methods*&_=1553137985477} hits=653 status=0 QTime=14
+2019-03-21 05:32:27.382 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how&indent=false&rows=10&wt=json} hits=9253 status=0 QTime=2662
+2019-03-21 05:33:15.951 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how&indent=false&rows=10&wt=json} hits=9253 status=0 QTime=1
+2019-03-21 05:34:31.844 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how&indent=false&rows=10&wt=json} hits=9253 status=0 QTime=1
+2019-03-21 05:34:37.674 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bdoes&indent=false&rows=10&wt=json} hits=10283 status=0 QTime=120
+2019-03-21 05:35:48.018 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop&indent=false&rows=10&wt=json} hits=7 status=0 QTime=227
+2019-03-21 05:35:58.823 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:what%2Bis%2Boop&indent=false&rows=10&wt=json} hits=4350 status=0 QTime=138
+2019-03-21 05:36:35.240 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:list%2Bvs%2Bdictionary&indent=false&rows=10&wt=json} hits=3420 status=0 QTime=136
+2019-03-21 05:36:51.656 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:tuple%2Bvs%2Blist&indent=false&rows=10&wt=json} hits=3003 status=0 QTime=13
+2019-03-21 05:37:09.941 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:print%2Bwithout%2Bspace&indent=false&rows=10&wt=json} hits=1072 status=0 QTime=63
+2019-03-21 05:41:10.318 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bis&indent=false&rows=10&wt=json} hits=12535 status=0 QTime=2
+2019-03-21 05:42:27.317 INFO  (qtp2059461664-19) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bis%2Boop&indent=false&rows=10&wt=json} hits=12540 status=0 QTime=268
+2019-03-21 05:43:30.364 INFO  (qtp2059461664-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 05:43:30.614 INFO  (qtp2059461664-22) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=249
+2019-03-21 05:43:30.660 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=296
+2019-03-21 05:43:31.192 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=474
+2019-03-21 05:43:31.418 INFO  (qtp2059461664-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=1054
+2019-03-21 05:43:38.385 INFO  (qtp2059461664-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 05:43:38.495 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/replication params={wt=json&command=details&_=1553136108814} status=0 QTime=83
+2019-03-21 05:43:38.538 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=128
+2019-03-21 05:43:40.279 INFO  (qtp2059461664-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 05:43:40.284 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 05:43:40.323 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=38
+2019-03-21 05:43:40.381 INFO  (qtp2059461664-19) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 05:43:40.418 INFO  (qtp2059461664-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=137
+2019-03-21 05:43:45.960 INFO  (qtp2059461664-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 05:43:45.965 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 05:43:45.965 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 05:43:46.014 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 05:43:46.070 INFO  (qtp2059461664-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=108
+2019-03-21 05:43:49.410 INFO  (qtp2059461664-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 05:43:49.414 INFO  (qtp2059461664-19) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 05:43:49.424 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 05:43:49.508 INFO  (qtp2059461664-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=96
+2019-03-21 05:43:49.516 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 05:43:52.658 INFO  (qtp2059461664-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 05:43:52.664 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 05:43:52.671 INFO  (qtp2059461664-22) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=8
+2019-03-21 05:43:52.752 INFO  (qtp2059461664-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=90
+2019-03-21 05:43:52.778 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 05:43:56.930 INFO  (qtp2059461664-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553135962651} status=0 QTime=0
+2019-03-21 05:43:56.940 INFO  (qtp2059461664-19) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/config params={wt=json&_=1553136130055} status=0 QTime=0
+2019-03-21 05:43:56.944 INFO  (qtp2059461664-19) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 05:43:56.985 INFO  (qtp2059461664-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553135962652} status=0 QTime=48
+2019-03-21 05:43:57.017 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1553136108813} status=0 QTime=1
+2019-03-21 05:48:20.095 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:list%2Barray%2B&indent=false&rows=10&wt=json} hits=3133 status=0 QTime=54
+2019-03-21 05:48:20.359 ERROR (qtp2059461664-22) [   x:Stackoverflow] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'tag:': Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2551)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:710)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'tag:': Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 41 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:325)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 44 more
+
+2019-03-21 05:48:20.360 INFO  (qtp2059461664-22) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:&indent=false&rows=10&wt=json} status=400 QTime=1
+2019-03-21 05:48:41.390 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop&indent=false&rows=10&wt=json} hits=7 status=0 QTime=0
+2019-03-21 05:48:41.397 ERROR (qtp2059461664-22) [   x:Stackoverflow] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'tag:': Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2551)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:710)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'tag:': Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 41 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:325)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 44 more
+
+2019-03-21 05:48:41.397 INFO  (qtp2059461664-22) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:&indent=false&rows=10&wt=json} status=400 QTime=1
+2019-03-21 05:49:14.561 INFO  (qtp2059461664-22) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Blist%2Barray&indent=false&rows=10&wt=json} hits=3140 status=0 QTime=2
+2019-03-21 05:49:14.569 ERROR (qtp2059461664-20) [   x:Stackoverflow] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'tag:': Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2551)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:710)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'tag:': Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 41 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:325)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 44 more
+
+2019-03-21 05:49:14.569 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:&indent=false&rows=10&wt=json} status=400 QTime=1
+2019-03-21 05:50:31.643 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Blist%2Barray&indent=false&rows=10&wt=json} hits=3140 status=0 QTime=1
+2019-03-21 05:50:31.651 ERROR (qtp2059461664-23) [   x:Stackoverflow] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'tag:': Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2551)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:710)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'tag:': Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 41 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:325)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 44 more
+
+2019-03-21 05:50:31.651 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:&indent=false&rows=10&wt=json} status=400 QTime=2
+2019-03-21 05:56:18.045 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Blist&indent=false&rows=10&wt=json} hits=2337 status=0 QTime=2
+2019-03-21 05:56:18.115 ERROR (qtp2059461664-23) [   x:Stackoverflow] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'tag:': Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2551)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:710)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'tag:': Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 41 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:325)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 44 more
+
+2019-03-21 05:56:18.116 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:&indent=false&rows=10&wt=json} status=400 QTime=1
+2019-03-21 05:56:27.824 INFO  (qtp2059461664-22) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop&indent=false&rows=10&wt=json} hits=7 status=0 QTime=0
+2019-03-21 05:56:27.829 ERROR (qtp2059461664-23) [   x:Stackoverflow] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'tag:': Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2551)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:710)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'tag:': Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 41 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:325)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 44 more
+
+2019-03-21 05:56:27.829 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:&indent=false&rows=10&wt=json} status=400 QTime=1
+2019-03-21 05:57:00.647 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop&indent=false&rows=10&wt=json} hits=7 status=0 QTime=0
+2019-03-21 05:57:00.652 ERROR (qtp2059461664-22) [   x:Stackoverflow] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'tag:': Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2551)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:710)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'tag:': Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 41 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:325)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 44 more
+
+2019-03-21 05:57:00.652 INFO  (qtp2059461664-22) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:&indent=false&rows=10&wt=json} status=400 QTime=1
+2019-03-21 05:57:23.088 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop&indent=false&rows=10&wt=json} hits=7 status=0 QTime=0
+2019-03-21 05:57:23.093 ERROR (qtp2059461664-40) [   x:Stackoverflow] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'tag:': Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2551)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:710)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'tag:': Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 41 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:325)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 44 more
+
+2019-03-21 05:57:23.093 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:&indent=false&rows=10&wt=json} status=400 QTime=1
+2019-03-21 05:58:21.638 INFO  (qtp2059461664-22) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Barray&indent=false&rows=10&wt=json} hits=873 status=0 QTime=1
+2019-03-21 05:58:56.130 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Btumple&indent=false&rows=10&wt=json} hits=7 status=0 QTime=1
+2019-03-21 05:59:42.237 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Btumple&indent=false&rows=10&wt=json} hits=7 status=0 QTime=0
+2019-03-21 06:01:07.459 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Btumple&indent=false&rows=10&wt=json} hits=7 status=0 QTime=0
+2019-03-21 06:01:47.448 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Btumple&indent=false&rows=10&wt=json} hits=7 status=0 QTime=0
+2019-03-21 06:03:01.447 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Btumple&indent=false&rows=10&wt=json} hits=7 status=0 QTime=0
+2019-03-21 06:03:55.342 INFO  (qtp2059461664-19) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Bmethod&indent=false&rows=10&wt=json} hits=491 status=0 QTime=40
+2019-03-21 06:04:46.223 INFO  (qtp2059461664-22) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Bstring&indent=false&rows=10&wt=json} hits=1552 status=0 QTime=1
+2019-03-21 06:05:26.770 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Bstring&indent=false&rows=10&wt=json} hits=1552 status=0 QTime=0
+2019-03-21 06:05:38.549 INFO  (qtp2059461664-19) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Bstring&indent=false&rows=10&wt=json} hits=1552 status=0 QTime=0
+2019-03-21 06:05:38.646 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:oop%2Bstring&indent=false&rows=10&wt=json} hits=1266 status=0 QTime=92
+2019-03-21 06:05:54.576 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Bstring&indent=false&rows=10&wt=json} hits=1552 status=0 QTime=0
+2019-03-21 06:05:54.581 INFO  (qtp2059461664-19) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:oop%2Bstring&indent=false&rows=10&wt=json} hits=1266 status=0 QTime=0
+2019-03-21 06:07:08.297 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Bstring&indent=false&rows=10&wt=json} hits=1552 status=0 QTime=0
+2019-03-21 06:07:08.302 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:oop%2Bstring&indent=false&rows=10&wt=json} hits=1266 status=0 QTime=0
+2019-03-21 06:09:20.243 INFO  (qtp2059461664-19) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Btuple&indent=false&rows=10&wt=json} hits=228 status=0 QTime=1
+2019-03-21 06:09:20.309 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:oop%2Btuple&indent=false&rows=10&wt=json} hits=192 status=0 QTime=2
+2019-03-21 06:10:24.381 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Btuple&indent=false&rows=10&wt=json} hits=228 status=0 QTime=0
+2019-03-21 06:10:24.388 INFO  (qtp2059461664-19) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:oop%2Btuple&indent=false&rows=10&wt=json} hits=192 status=0 QTime=0
+2019-03-21 06:10:50.075 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Bmethod&indent=false&rows=10&wt=json} hits=491 status=0 QTime=0
+2019-03-21 06:10:50.123 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:oop%2Bmethod&indent=false&rows=10&wt=json} hits=232 status=0 QTime=44
+2019-03-21 06:12:24.013 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:what%2Bis%2Boop%2Bmethod&indent=false&rows=10&wt=json} hits=4749 status=0 QTime=3
+2019-03-21 06:12:24.113 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:what%2Bis%2Boop%2Bmethod&indent=false&rows=10&wt=json} hits=235 status=0 QTime=2
+2019-03-21 06:13:20.245 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Bmethod&indent=false&rows=10&wt=json} hits=491 status=0 QTime=0
+2019-03-21 06:13:20.250 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:oop%2Bmethod&indent=false&rows=10&wt=json} hits=232 status=0 QTime=0
+2019-03-21 06:14:50.215 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Bmethod&indent=false&rows=10&wt=json} hits=491 status=0 QTime=1
+2019-03-21 06:14:50.221 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:oop%2Bmethod&indent=false&rows=10&wt=json} hits=232 status=0 QTime=0
+2019-03-21 06:15:15.030 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:list%2Btuple%2Bdictionary&indent=false&rows=10&wt=json} hits=3056 status=0 QTime=2
+2019-03-21 06:15:15.098 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:list%2Btuple%2Bdictionary&indent=false&rows=10&wt=json} hits=2247 status=0 QTime=9
+2019-03-21 06:16:01.580 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:list%2Btuple%2Bdictionary&indent=false&rows=10&wt=json} hits=3056 status=0 QTime=0
+2019-03-21 06:16:01.584 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:list%2Btuple%2Bdictionary&indent=false&rows=10&wt=json} hits=2247 status=0 QTime=0
+2019-03-21 06:17:48.852 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:list%2Btuple%2Bdictionary&indent=false&rows=20&wt=json} hits=3056 status=0 QTime=2
+2019-03-21 06:17:49.000 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:list%2Btuple%2Bdictionary&indent=false&rows=20&wt=json} hits=2247 status=0 QTime=0
+2019-03-21 06:20:01.290 INFO  (qtp2059461664-22) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop&indent=false&rows=20&wt=json} hits=7 status=0 QTime=0
+2019-03-21 06:20:01.295 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:oop&indent=false&rows=20&wt=json} hits=191 status=0 QTime=0
+2019-03-21 06:20:27.612 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:oop%2Bmethod&indent=false&rows=20&wt=json} hits=491 status=0 QTime=0
+2019-03-21 06:20:27.777 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:oop%2Bmethod&indent=false&rows=20&wt=json} hits=232 status=0 QTime=0
+2019-03-21 06:21:03.769 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:what%2Bis%2Ba%2Barray%2Blist&indent=false&rows=20&wt=json} hits=14435 status=0 QTime=3
+2019-03-21 06:21:03.928 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:what%2Bis%2Ba%2Barray%2Blist&indent=false&rows=20&wt=json} hits=1585 status=0 QTime=2
+2019-03-21 06:21:20.331 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:sk-learn&indent=false&rows=20&wt=json} hits=179 status=0 QTime=1
+2019-03-21 06:21:20.548 ERROR (qtp2059461664-39) [   x:Stackoverflow] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'tag:': Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2551)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:710)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'tag:': Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 41 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 4.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:325)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 44 more
+
+2019-03-21 06:21:20.548 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:&indent=false&rows=20&wt=json} status=400 QTime=3
+2019-03-21 06:21:33.732 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:method%2Boop&indent=false&rows=20&wt=json} hits=491 status=0 QTime=0
+2019-03-21 06:21:33.738 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:method%2Boop&indent=false&rows=20&wt=json} hits=232 status=0 QTime=0
+2019-03-21 06:22:51.510 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:dataframe%2Band%2Bnumpy&indent=false&rows=20&wt=json} hits=6036 status=0 QTime=57
+2019-03-21 06:22:51.715 INFO  (qtp2059461664-22) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:dataframe%2Band%2Bnumpy&indent=false&rows=20&wt=json} hits=3127 status=0 QTime=15
+2019-03-21 06:23:57.119 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:python%2Blist%2Bexplain&indent=false&rows=20&wt=json} hits=18201 status=0 QTime=66
+2019-03-21 06:23:57.251 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:list&indent=false&rows=20&wt=json} hits=1499 status=0 QTime=1
+2019-03-21 06:24:30.766 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bto%2Bcheck%2Ba%2Bempty%2Blist&indent=false&rows=20&wt=json} hits=20367 status=0 QTime=84
+2019-03-21 06:24:30.929 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=tag:how%2Bto%2Bcheck%2Ba%2Bempty%2Blist&indent=false&rows=20&wt=json} hits=1559 status=0 QTime=4
+2019-03-21 06:26:26.471 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bto%2Bprint%2Bwithout%2Bnewlines&indent=false&rows=20&wt=json} hits=15233 status=0 QTime=2
+2019-03-21 06:27:01.921 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bto%2Bprint%2Bwithout%2Bnewline&indent=false&rows=20&wt=json} hits=15236 status=0 QTime=2
+2019-03-21 06:38:33.973 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:kill%2Bme%2Bplease&indent=false&rows=20&wt=json} hits=85 status=0 QTime=37
+2019-03-21 06:38:57.590 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bto%2Bkill%2Bthe%2Bprocess&indent=false&rows=20&wt=json} hits=17313 status=0 QTime=2
+2019-03-21 06:39:21.083 INFO  (qtp2059461664-18) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bto%2Bfill%2Bin%2Bdataframe%2Bby%2Bvalues&indent=false&rows=20&wt=json} hits=23603 status=0 QTime=5
+2019-03-21 06:41:39.006 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bto%2Bprint%2Bwithout%2Bnewline&indent=false&rows=20&wt=json} hits=15236 status=0 QTime=0
+2019-03-21 06:52:47.040 INFO  (qtp2059461664-39) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bto%2Bprint%2Bwithout%2Bnewline&indent=false&rows=20&wt=json} hits=15236 status=0 QTime=0
+2019-03-21 06:53:32.972 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bto%2Bprint%2Bwithout%2Bnewline&indent=false&rows=20&wt=json} hits=15236 status=0 QTime=0
+2019-03-21 06:56:50.260 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bto%2Bprint%2Bwithout%2Bnewline&indent=false&rows=20&wt=json} hits=15236 status=0 QTime=1
+2019-03-21 06:57:59.445 INFO  (qtp2059461664-24) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bto%2Bprint%2Bwithout%2Bnewline&indent=false&rows=20&wt=json} hits=15236 status=0 QTime=1
+2019-03-21 06:58:32.606 INFO  (qtp2059461664-15) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bto%2Bprint%2Bwithout%2Bnewline&indent=false&rows=20&wt=json} hits=15236 status=0 QTime=0
+2019-03-21 06:59:49.067 INFO  (qtp2059461664-23) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bto%2Bprint%2Bwithout%2Bnewline&indent=false&rows=20&wt=json} hits=15236 status=0 QTime=1
+2019-03-21 07:00:09.879 INFO  (qtp2059461664-19) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bto%2Bprint%2Bwithout%2Bnewline&indent=false&rows=20&wt=json} hits=15236 status=0 QTime=0
+2019-03-21 07:04:19.544 INFO  (qtp2059461664-40) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bto%2Bprint%2Bwithout%2Bnewline&indent=false&rows=20&wt=json} hits=15236 status=0 QTime=0
+2019-03-21 07:04:35.822 INFO  (qtp2059461664-19) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bto%2Bprint%2Bwithout%2Bnewline&indent=false&rows=20&wt=json} hits=15236 status=0 QTime=0
+2019-03-21 07:06:22.338 INFO  (qtp2059461664-20) [   x:Stackoverflow] o.a.s.c.S.Request [Stackoverflow]  webapp=/solr path=/select params={q=question:how%2Bto%2Bprint%2Bwithout%2Bnewline&indent=false&rows=20&wt=json} hits=15236 status=0 QTime=0
