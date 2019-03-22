@@ -16,7 +16,7 @@ Solr
 
 Following the instruction in the lecture notes and tutorials
 
-Python 3 adn pandas
+Python 3 and pandas
 
 
 ### Installing
@@ -40,24 +40,32 @@ python solr_retrieve.py
 
 ### The 10 testing pairs
 1	How to check is a list is empty
+
 2	How to print without newline
+
 3	How to turn list into dataframe
+
 4	What is the time complexity of list operation in python
+
 5	Python IDE
+
 6	How to clone a list
+
 7	How to convert two list into dictionary
+
 8	How to import csv
+
 9	How to print error
+
 10	How to write line to a file
  
 
 ## Built With
-Python
-Solr
-Request
+Python:Request
 BeautifulSoup
 Pandas
 
+Solr
 
 
 ## Versioning
